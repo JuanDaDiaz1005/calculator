@@ -32,3 +32,28 @@ body {
     color: black;
     
 }
+
+.buttons{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 18px 18px;
+    height: 70%;
+
+}
+
+.fill{
+    background-color: #ff000000;
+}
+
+.buttons.button {
+    background-color: #d3d3d3;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.411) 0px 0px 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: black;
+}
